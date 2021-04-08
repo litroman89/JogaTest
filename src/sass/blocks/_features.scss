@@ -1,0 +1,61 @@
+.features {
+    position: relative;
+    min-height: 968px;
+    padding-top: 160px;
+    background-color: #121351;
+    &__title {
+        @include h1;
+        font-size: 40px;
+        text-align: center;
+    }
+    &__bg {
+        position: relative;
+        left: 44px;
+        background: url(../img/features/Vector.png);
+        width: 1096px;
+        height: 837px;
+        margin-top: 60px;
+    }
+    &__ball {
+        position: absolute;
+        display: flex;
+        align-items: center;
+        &__text {
+            margin-left: 30px;
+        }
+        &__text-title {
+            @include h2;
+            font-size: 28px;
+        }
+        &__text-descr {
+            @include b1;
+            margin-top: 8px;
+            font-size: 16px;
+            opacity: 0.8;
+        }
+        &-1 {
+            bottom: 698px;
+            left: 85px;
+        }
+        &-2 {
+            bottom: 697px;
+            left: 675px;
+        }
+        &-3 {
+            bottom: 504px;
+            left: 368px;
+        }
+        &-4 {
+            bottom: 322px;
+            left: 0;
+        }
+        &-5 {
+            bottom: 282px;
+            left: 675px;
+        }
+        &-6 {
+            bottom: 60px;
+            left: 368px;
+        }
+    }
+}

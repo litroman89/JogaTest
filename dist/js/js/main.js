@@ -1,0 +1,1 @@
+"use strict";function parallax(r){this.querySelectorAll(".layer").forEach(e=>{var t=e.getAttribute("data-speed"),a=(window.innerWidth-r.pageX*t)/100,t=(window.innerHeight-r.pageY*t)/100;e.style.transform=`translateX(${a}px) translateY(${t}px)`})}document.addEventListener("mousemove",parallax);

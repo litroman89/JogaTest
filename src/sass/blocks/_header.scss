@@ -1,0 +1,50 @@
+header {
+    position: absolute;
+    width: 100%;
+    .header__wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    ul {
+        display: flex;
+        width: 533px;
+        justify-content: space-between;
+        li {
+            list-style-type: none;
+            position: relative;
+            margin: 10px 0;
+            display: inline-flex;
+            justify-content: center;
+            align-items: center;
+            overflow: visible;
+            transition: 0.5s;
+            :before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 0;
+                height: 100%;
+                background: url(../img/promo/brush.svg);
+                background-size: auto 24px;
+                background-repeat: no-repeat;
+                background-position: top;
+                transform-origin: left;
+                z-index: -1;
+                transition: 0.5s;
+            }
+            :hover:before {
+                width: 100%;
+            }
+        }
+        a {
+            text-decoration: none;
+            @include b2;
+            padding: 0 10px;
+            position: relative;
+            overflow: visible;
+            z-index: 1;
+        }
+    }
+}

@@ -1,0 +1,51 @@
+.about {
+    background-color: #121351;
+    height: 454px;
+    width: 100%;
+    &__wrapper {
+        width: 1140px;
+        height: 454px;
+        background: linear-gradient(111.4deg, #00FFEC 2.82%, #0068DE 51.49%, #A43BE3 97.21%);
+        box-shadow: 6px 30px 30px rgba(1, 1, 24, 0.2);
+        border-radius: 40px;
+        position: relative;
+        display: flex;
+        &__ellipse {
+            margin-top: 66px;
+            margin-left: 70px;
+            width: 370px;
+            height: 349px;
+            background: #70DDFF;
+            filter: blur(40px);
+            border-radius: 100%;
+        }
+        &__img {
+            position: absolute;
+        }
+        &__descr {
+            position: absolute;
+            top: 110px;
+            left: 590px;
+            &-title {
+                h2 {
+                    @include h1;
+                }
+            }
+            &-subtitle {
+                @include b1;
+                margin-top: 20px;
+            }
+            &-social {
+                margin-top: 60px;
+                display: flex;
+                a {
+                    margin-right: 15px;
+                    transition: 0.5s;
+                    &:hover {
+                        transform: scale(1.2);
+                    }
+                }
+            }
+        }
+    }
+}

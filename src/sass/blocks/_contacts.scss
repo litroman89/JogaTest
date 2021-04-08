@@ -1,0 +1,35 @@
+.contacts {
+    min-height: 642px;
+    background: linear-gradient(180deg, #121351 371px, #03042C 271px);
+    padding-top: 160px;
+    &__area {
+        height: 522px;
+        width: 100%;
+        background-image: url('../img/contacts/contacts_bg.png');
+        padding: 80px 130px 80px 80px;
+        filter: drop-shadow(6px 20px 30px rgba(1, 1, 24, 0.85));
+        &__wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            &__social {
+                h2{
+                    @include h2;
+                    margin-bottom: 10px;
+                }
+                .social_wrapper {
+                    display: flex;
+                    align-items: center;
+                    margin-top: 30px;
+                    span {
+                        margin-left: 14px;
+                        @include b1;
+                    }
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+    }
+}

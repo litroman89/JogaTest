@@ -1,0 +1,123 @@
+.promo {
+    position: relative;
+    height: 850px;
+    background-color: #121351;
+    background-image: url(../img/promo/Background.png);
+    background-size: 100% 100%;
+    &__wrapper {
+        position: absolute;
+        top: 296px;
+        left: 0;
+        &__title {
+            h1 {
+                font-weight: bold;
+                font-size: 64px;
+                line-height: 96px;
+                color: white;
+            }
+        }
+        &__descr {
+            @include b1;
+            margin-top: 9px;
+        }
+        &__btn {
+            @include btn;
+            text-decoration: none;
+            margin-top: 47px;
+            font-weight: 500;
+            font-size: 15px;
+            line-height: 150%;
+            text-align: center;
+            color: white;
+            transition: 0.5s;
+            &-text {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                transition: 0.5s;
+                span {
+                    position: relative;
+                    left: 20%;
+                    transition: 0.5s;
+                }
+            }
+            img {
+                margin-left: 15px;
+                opacity: 0;
+                transition: 0.5s;
+            }
+            &:hover {
+                box-shadow: none;
+                span {
+                    left: 0;
+                }
+                img {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+
+
+    .man {
+        position: absolute;
+        right: -124px;
+        top: 105px;
+    }
+    .layer_1 {
+        display: block;
+        position: absolute;
+        top: 174px;
+        left: -170px;
+    }
+    .layer_2 {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 713px;
+    }
+    .layer_3 {
+        display: block;
+        position: absolute;
+        left: 289px;
+        top: 625px;
+    }
+    .layer_4 {
+        display: block;
+        position: absolute;
+        left: 330px;
+        top: 104px;
+    }
+    .layer_5 {
+        display: block;
+        position: absolute;
+        left: 496px;
+        top: 182px;
+    }
+    .layer_6 {
+        display: block;
+        position: absolute;
+        left: 478px;
+        top: 304px;
+        // transform: scale(0.7);
+    }
+    .layer_7 {
+        display: block;
+        position: absolute;
+        left: 608px;
+        top: 468px;
+    }
+    .layer_8 {
+        display: block;
+        position: absolute;
+        top: 700px;
+        right: -86px;
+    }
+    .layer_9 {
+        display: block;
+        position: absolute;
+        top: 93px;
+        right: -56px;
+    }
+}

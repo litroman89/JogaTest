@@ -1,0 +1,37 @@
+@mixin b1 {
+    font-size: 20px;
+    line-height: 150%;
+    font-weight: 400;
+    color: white;
+}
+
+@mixin b2 {
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 500;
+    color: white;
+}
+
+@mixin h1 {
+    font-size: 48px;
+    line-height: 150%;
+    font-weight: bold;
+    color: white;
+}
+
+@mixin h2 {
+    font-size: 34px;
+    line-height: 150%;
+    font-weight: bold;
+    color: white;
+}
+
+@mixin btn {
+    display: flex;
+    width: 180px;
+    height: 46px;
+    padding: 8px 24px;
+    background: #FF9C19;
+    box-shadow: 0px 8px 30px rgba(8, 21, 68, 0.5);
+    border-radius: 100px;
+}

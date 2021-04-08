@@ -1,0 +1,67 @@
+.promo {
+    position: relative;
+    height: 850px;
+    background-color: #121351;
+    background-image: url(../img/promo/Background.png);
+    background-size: cover;
+    .man {
+        position: absolute;
+        right: -124px;
+        top: 105px;
+    }
+    .layer_1 {
+        display: block;
+        position: absolute;
+        top: 174px;
+        left: -170px;
+    }
+    .layer_2 {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 713px;
+    }
+    .layer_3 {
+        display: block;
+        position: absolute;
+        left: 289px;
+        top: 625px;
+    }
+    .layer_4 {
+        display: block;
+        position: absolute;
+        left: 330px;
+        top: 104px;
+    }
+    .layer_5 {
+        display: block;
+        position: absolute;
+        left: 496px;
+        top: 182px;
+    }
+    .layer_6 {
+        display: block;
+        position: absolute;
+        left: 478px;
+        top: 304px;
+        // transform: scale(0.7);
+    }
+    .layer_7 {
+        display: block;
+        position: absolute;
+        left: 608px;
+        top: 468px;
+    }
+    .layer_8 {
+        display: block;
+        position: absolute;
+        top: 700px;
+        right: -86px;
+    }
+    .layer_9 {
+        display: block;
+        position: absolute;
+        top: 93px;
+        right: -56px;
+    }
+}
